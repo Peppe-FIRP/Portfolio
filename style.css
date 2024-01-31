@@ -231,14 +231,30 @@ a{
 
     .footer{
         top: 100px;
-        height: 540px;
+        height: 650px;
     }
-  
+    
     .Social{
         display: grid;
         align-items: center;
         position: relative;
-        grid-gap: 100px;
+        grid-gap: 200px;
+        top: -30px;
+    }
+
+    .SInstagram{
+        position: relative;
+        top: 100px;
+    }
+    
+    .STikTok{
+        position:relative;
+        top: -100px
+    }
+
+    .SFacebook{
+        position: relative;
+        top: -100px;
     }
 
 }
